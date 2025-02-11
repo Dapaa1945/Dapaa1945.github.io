@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family:'Segoe UI', Tahoma,;
+    line-height: 1.6;
+    background-image: url('foto/bgteh.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    text-align: center;
+    color: #ffffff;
+}
+
+.h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+
+}
+
+.konten {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 1px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: brown;
+}
+
+.konten:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.img-katalog {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    text-align: center;
+    font-size: 24p;
+    color: #ffffff;
+    pointer-events: fill;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy-ori {
+    background: rgb(126, 93, 85);
+}
+
+.buy-tawar {
+    background: rgb(126, 93, 85);
+}
+
+.buy-lesugar {
+    background: rgb(126, 93, 85);
+}
+
+.more {
+    background: rgb(126, 93, 85);
+}
+
+vidio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.container {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border: 2pc solid #e12323;
+    box-shadow: 4px 7px 7px 0px #00000000;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.card {
+    display: flex;
+    background: rgb(151, 37, 37);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+
+}
+
+header {
+    background-color: rgb(126, 93, 85);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1{
+    margin: 0;
+}
+
+/* logo */
+.logo {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo-kiri{
+    left: 20px;
+}
+
+.logo-kanan{
+    right: 20px;
+}
+
+.header-title {
+    float: left; /* Mengatur teks agar berada di sebelah kiri */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 10px 20px; /* Menambahkan padding jika diperlukan */
+    color: #ffffff; /* Mengatur warna teks */
+    text-align: center;
+}
+
+nav {
+    text-align: center; /* Mengatur teks di dalam nav ke kanan */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Menyusun item menu secara horizontal */
+    margin: 0 15px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 100px;
+}
+
+.DapaVidio {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
